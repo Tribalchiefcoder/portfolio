@@ -42,6 +42,17 @@ const certificates = [
     icon: FileText,
     buttonText: "View Document",
   },
+   {
+    id: 4,
+    title: "Chatgpt vs Claude vs Gemini: Complete Guide",
+    organization: "Free Academy",
+    category: "Technical Certification",
+    date: "November 2026",
+    image: "certificates/aicertificate.jpg",
+    document: "certificates/aicertificate.pdf",
+    icon: FileText,
+    buttonText: "View Document",
+  },
 ];
 
 function CertificateCard({ certificate, index }) {
