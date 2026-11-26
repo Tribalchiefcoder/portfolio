@@ -53,6 +53,17 @@ const certificates = [
     icon: FileText,
     buttonText: "View Document",
   },
+   {
+    id: 5,
+    title: "Responsive Web Design",
+    organization: "FreeCodeCamp",
+    category: "Technical Certification",
+    date: "November 2026",
+    image: "certificates/Responsive_webdesign.png",
+    document: "certificates/Responsive_webdesign.pdf",
+    icon: FileText,
+    buttonText: "View Document",
+  },
 ];
 
 function CertificateCard({ certificate, index }) {
